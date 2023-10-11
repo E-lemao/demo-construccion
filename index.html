@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Visor 3D</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
     <scriptA
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -20,9 +20,18 @@
   <body>
     <h1>Visor 3D</h1>
 
-    <model-viewer src="modelos/camion_edit1.glb" alt="ModeloEjemplo" enable-pan ar ar-modes="scene-viewer webxr" camera-controls field-of-view="45deg" min-field-of-view="1deg" camera-orbit="0deg 0deg 0m" interpolation-decay="100" class="script"></model-viewer>
+    <div class="visor">
+
+    <model-viewer src="/modelos/camion_edit2.glb" alt="ModeloEjemplo" enable-pan ar ar-modes="scene-viewer webxr" camera-controls field-of-view="45deg" min-field-of-view="1deg" camera-orbit="0deg 0deg 0m" interpolation-decay="100" class="script">
+
+      <button>Hola</button>
+
+    </model-viewer>
 
 
+
+
+    </div>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 
